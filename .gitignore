@@ -1,0 +1,17 @@
+/target
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Release output
+/dist
+
+# Pro tier — not open sourced. build.rs copies licence_community.rs on fresh clones.
+src/licence.rs
+src/bin/keygen.rs
