@@ -1,0 +1,9 @@
+name = "envdiff-keys"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+# Secrets (never commit these — set via wrangler CLI):
+#   wrangler secret put LEMONSQUEEZY_SIGNING_SECRET
+#   wrangler secret put RESEND_API_KEY
+#   wrangler secret put LICENCE_MAGIC
+#   wrangler secret put FROM_EMAIL
